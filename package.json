@@ -10,6 +10,7 @@
     "prod": "npm run webpack -- --env.mode production",
     "dev": "npm run webpack-dev-server -- --env.mode development --hot",
     "prod:debug": "npm run debug -- --env.mode production",
+    "prod:typescript": "npm run prod -- --env.presets typescript",
     "dev:debug": "npm run debug -- --env.mode development"
   },
   "repository": {
@@ -33,7 +34,7 @@
     "mini-css-extract-plugin": "^0.4.0",
     "postcss-loader": "^2.1.5",
     "style-loader": "^0.21.0",
-    "ts-loader": "^4.2.0",
+    "ts-loader": "^4.3.0",
     "url-loader": "^1.0.1",
     "webpack": "^4.8.0",
     "webpack-bundle-analyzer": "^2.11.1",
